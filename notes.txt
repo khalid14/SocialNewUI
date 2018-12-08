@@ -1,0 +1,14 @@
+Basically you can access the Shopify object in any controller for example with:
+
+$shopify = App::make('ShopifyAPI', [
+'API_KEY' => Config::get('shopify.key'),
+'API_SECRET' => Config::get('shopify.secret'),
+'SHOP_DOMAIN' => $shop,
+'ACCESS_TOKEN' => $access_token,
+]);
+
+try {
+$product_count = $shopify->call(['URL' => '/admin/products/count.json', 'METHOD' => 'GET', 'DATA' => []]);
+} catch (Exception $e) {
+Log::info($e->getMessage());
+}

@@ -1,0 +1,99 @@
+ {
+    "sname": "",
+    "products": {
+        "ids": []
+    },
+    "social": {
+      "facebook": {
+          "general": { "user_account_id": "", "user_email": "", "user_phone": ""},
+          "pages": ["page1", "page2", "page3", "page4"],
+          "page": "",
+          "status": false
+      },
+      "instagram": {
+            "general": { "user_account_id": "", "user_email": "", "user_phone": ""},
+            "pages": ["page1", "page2", "page3", "page4", "page5", "page6"],
+            "page": "",
+            "status": false
+        },
+      "twitter": {
+            "general": { "user_account_id": "", "user_email": "", "user_phone": ""},
+            "pages": ["page1", "page2", "page3", "page4"],
+            "page": "",
+            "status": false
+        },
+       "pinterest": {
+            "general": { "user_account_id": "", "user_email": "", "user_phone": ""},
+            "pages": ["page1", "page2", "page3", "page4"],
+            "page": "",
+            "status": false
+        }
+    },
+    "format": [
+        { "single": "100" }, 
+        { "gif": "70" }, 
+        { "collage": "50" }
+    ],
+    "post_product": [
+        { "no_of_post": 1}, 
+        { "every_days": 2}
+    ],
+    "cron_time": { 
+        "from": null, 
+        "to": null
+    },
+    "alow_weekend": "false",
+    "alow_repetation": "false",
+    "selected_template": "default",
+    "template_default": {
+        "format": "PRODUCT-TITLE-PRICE-HASHTAG-URL",
+        "status": true,
+        "extra_mode": {
+            "status": false
+        },
+        "extra_msg_obj": [
+            {
+                "message": "This is so lit! 🔥 [Hashtag] [URL]",
+                "check": true
+            },
+            {
+                "message": "Checkout the latest addition to our store 😍 [Hashtag] [URL]\n",
+                "check": true
+            },
+            {
+                "message": "Get one of these before they are sold out! [Hashtag] [URL]",
+                "check": true
+            },
+            {
+                "message": "Available only for limited time! [Hashtag] [URL]",
+                "check": true
+            }
+        ]
+    },
+    "template_custom": {
+        "format": "PRODUCT-TITLE-PRICE-HASHTAG-URL",
+        "status": false,
+        "extra_mode": {
+            "status": false
+        },
+        "extra_msg_obj": [
+            {
+                "message": "This is so lit! 🔥 [Hashtag] [URL]",
+                "check": true
+            },
+            {
+                "message": "Checkout the latest addition to our store 😍 [Hashtag] [URL]\n",
+                "check": true
+            },
+            {
+                "message": "Get one of these before they are sold out! [Hashtag] [URL]",
+                "check": true
+            },
+            {
+                "message": "Available only for limited time! [Hashtag] [URL]",
+                "check": true
+            }
+        ]
+    },
+    "calendar": []
+  }    
